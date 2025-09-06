@@ -1,0 +1,27 @@
+{
+  "name": "tai-xiu-predictor",
+  "version": "1.0.0",
+  "description": "API for predicting Tài Xỉu based on session data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "HoVanThien_Pro",
+  "license": "MIT",
+  "keywords": [
+    "tai-xiu",
+    "prediction",
+    "api"
+  ]
+}
